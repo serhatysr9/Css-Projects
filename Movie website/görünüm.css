@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+}
+.header-css {
+  background-color: palevioletred;
+  height: 32px;
+}
+.header1 {
+  font-size: 25px;
+}
+.giris {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 120px);
+  font-size: 17px;
+}
+.nav-link {
+  padding: 0px 3px;
+}
+.buton {
+  color: white;
+  background-color: blue;
+  border: 2px solid white;
+  border-radius: 3px;
+}
+a {
+  text-decoration: none;
+}
+a.nav-link:link {
+  color: white;
+}
+a.nav-link:visited {
+  color: yellow;
+}
+a.nav-link:hover {
+  color: blue;
+}
+a.nav-link:active {
+  color: black;
+}
+a.buton:hover {
+  color: blue;
+  background-color: white;
+  border: 2px solid blue;
+  border-radius: 3px;
+}
+a.nav-link::before {
+  content: "\2606";
+}
+
+.orta {
+  width: 100%;
+  height: 700px;
+  background-image: url(./images1/22.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.baslik {
+  margin: 0;
+}
+.how-it-works {
+  text-align: center;
+}
+.row1 {
+  display: inline-block;
+  width: 30%;
+  height: 40px;
+  margin: 0 1%;
+}
+
+.aciklama {
+  padding: 15px 15px;
+  width: calc(100%-31px);
+}
+.resim {
+  background-image: url(./images1/11.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.col-2 {
+  display: inline-block;
+  width: 49%;
+  height: 300px;
+  vertical-align: top;
+}
+.detay {
+  vertical-align: top;
+  background-color: beige;
+}
+.plan {
+  text-align: center;
+}
+.plan1 {
+  display: inline-block;
+  width: 30%;
+  background-color: aqua;
+  margin-bottom: 20px;
+}
+.button {
+  background-color: brown;
+  border: 2px solid white;
+  color: yellow;
+  border-radius: 3px;
+  position: relative;
+  bottom: 5px;
+}
+.button:hover {
+  background-color: beige;
+  border: 2px solid brown;
+  color: red;
+  border-radius: 3px;
+}
+.yazi {
+  font-size: 13px;
+}
+.counters {
+  background: linear-gradient(to bottom, #fc997c 0%, #fc8b69 100%);
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.plan2 {
+  float: left;
+  width: 33.3%;
+  padding: 15px 0;
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.counters::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#movies {
+  text-align: center;
+}
+.plan2 h4 {
+  margin: 0;
+}
+.colon {
+  float: left;
+  width: 33.3%;
+}
+
+.roww::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.card {
+  cursor: pointer;
+}
+.card-body p {
+  text-align: center;
+  padding: 0 50px;
+}
+.col-22 {
+  float: left;
+  width: 49%;
+}
+footer {
+  background-color: #2e4c6d;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+.footer-row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+footer a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+footer ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 10px;
+}
+.sos {
+  text-align: right;
+}

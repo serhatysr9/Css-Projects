@@ -1,0 +1,40 @@
+.singup-title {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 30px;
+  color: #2e4c6d;
+}
+
+.singup-form {
+  width: 50vw;
+  margin: auto;
+}
+
+.singup-form label,
+.singup-form input:not([type="checkbox"]),
+.singup-form select {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}
+.singup-form input[type="checkbox"],
+.singup-form input[type="checkbox"] + label {
+  display: inline-block;
+  width: auto;
+}
+
+.singup-form button[type="submit"] {
+  display: block;
+  margin-top: 15px;
+}
+.singup-form input:not([type="checkbox"]),
+.singup-form select {
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+}
+.singup-form input:not([type="checkbox"]):focus,
+.singup-form select:focus {
+  outline: none;
+  background-color: grey;
+  border: 1px solid greenyellow;
+}
